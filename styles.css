@@ -1,0 +1,168 @@
+body
+{
+    color: #40515e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.bot-cloud
+{
+    position: relative;
+    left:5px;
+    bottom: 550px;
+}
+.top-cloud
+{
+    position: relative;
+    left: 360px;
+    bottom: -240px;
+}
+.skill-row
+{
+    width: 70%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+hr
+{
+    border: none;
+    border-top: dotted 5px;
+    width: 5%;
+    color: #c9d4d4;
+    margin: auto;
+    /* border-radius: 100%; */
+}
+
+.profile,.contact-me
+{
+    width: 50%;
+    margin: 100px auto;
+    line-height: 2;
+}
+
+.skills
+{
+    margin-top: 100px;
+}
+p
+{
+    font-size: 90%;
+}
+.comp
+{
+    width: 40%;
+    height: auto;
+    float: right;
+    margin-left: 35px;
+}
+.code
+{
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-right: 35px;
+}
+h1
+{
+    margin: 15px auto 0;
+    font-family: 'Clicker Script', cursive;
+    font-size: 80px;  /*100% = 1em = 16px*/
+    font-weight: 500;
+    color: #66bfbf;
+    /* line-height: 1; */
+}
+
+.sub-top
+{
+    font-size: 1.5rem;
+}
+
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-weight: normal;
+}
+
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+    font-weight: 550;
+}
+a
+{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px 30px;
+    text-decoration: none;
+}
+a:hover
+{
+    color: white;
+}
+
+.top-container
+{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.mid-container
+{
+ 
+}
+
+#profile-pic
+{
+    width: 200px;
+    height: auto;
+}
+.bottom-container
+{
+    background: #66bfbf;
+    padding: 35px 10px;
+}
+
+.btn
+{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 105%;
+    font-weight: 100;
+    padding: 2% 5%;
+    background-color: #66bfbf;
+    text-shadow: 1px 1px 20px #000000;
+    /* border: solid #337fed 1px; */
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.btn:hover
+{
+    /* border: solid #33EDED 1px; */
+    background: #30F1F1;
+    border-radius: 20px;
+    text-decoration: none;
+}
+    
+.copy-right
+{
+    color: white;
+    margin: 30px auto 10px;
+    font-size: smaller;
+}
+
+.contact-mess
+{
+    width: 40%;
+    margin: 50px auto;
+}
