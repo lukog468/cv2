@@ -5,18 +5,32 @@ body
     text-align: center;
     font-family: 'Merriweather', serif;
 }
+.top-container
+{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 150px;
+    /* display: inline-block; */
+}
 .bot-cloud
 {
-    position: relative;
-    left:5px;
-    bottom: 550px;
+    position: absolute;
+    left:150px;
+    top: 100px;
+}
+.mount
+{
+    width: 70%;
+    /* display: block; */
+    margin: auto;
 }
 .top-cloud
 {
-    position: relative;
-    left: 360px;
-    bottom: -240px;
+    position: absolute;
+    top: 300px;
+    right: 150px;
 }
+
 .skill-row
 {
     width: 70%;
@@ -105,21 +119,11 @@ a:hover
     color: white;
 }
 
-.top-container
-{
-    background-color: #E4F9F5;
-    position: relative;
-    padding-top: 100px;
-}
 
-.mid-container
-{
- 
-}
 
 #profile-pic
 {
-    width: 200px;
+    width: 50%;
     height: auto;
 }
 .bottom-container
@@ -165,4 +169,56 @@ a:hover
 {
     width: 40%;
     margin: 50px auto;
+}
+
+@media all and (max-width:700px)
+{
+  
+    /* body
+    {
+        background-color: #000000;
+    } */
+
+    .top-container
+    {
+        background-color: #40515e;
+    }
+    .mount
+    {
+        width: 80%;
+        /* display: block; */
+        /* margin: auto; */
+    }
+    h1
+    {
+        font-size: 40px;
+    }
+    .sub-top
+    {
+        font-size: smaller;
+    }
+    h2,h3
+    {
+        font-size: medium;
+    }
+    .cloud
+    {
+        display: none;
+    }
+    .bottom-container
+    {
+        background: #40515e;
+        
+    }
+    .btn
+    {
+        background: #40515e;
+        text-shadow: 1px 1px 20px #f3efef;
+    }
+    .btn:hover
+    {
+        background: #66bfbf;
+        border-radius: 20px;
+        text-decoration: none;
+    }
 }
